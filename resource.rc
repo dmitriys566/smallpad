@@ -1,0 +1,29 @@
+IDI_ICON1 ICON DISCARDABLE "main.ico"
+
+1 VERSIONINFO  
+FILEVERSION    1,0,0,0  
+PRODUCTVERSION 1,0,0,0  
+FILEFLAGS 0x1L  
+FILEOS 0x40004L  
+FILETYPE 0x1L  
+FILESUBTYPE 0x1L  
+BEGIN  
+   BLOCK "StringFileInfo"  
+   BEGIN   
+     BLOCK "080904E4"  
+     BEGIN  
+    VALUE "CompanyName", "Dmitriy Samosvat"  
+    VALUE "FileDescription", "SmallPAD"  
+    VALUE "FileVersion", "1000"  
+    VALUE "InternalName", "smallpad"  
+    VALUE "LegalCopyright", "SmallPAD"  
+    VALUE "OriginalFilename", "smallpad.exe"  
+    VALUE "ProductName", "SmallPAD"  
+    VALUE "ProductVersion", "1000"  
+     END  
+   END  
+   BLOCK "VarFileInfo"  
+   BEGIN  
+      VALUE "Translation", 0x809, 1252, 0x419, 1251
+   END
+END
